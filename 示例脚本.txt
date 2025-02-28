@@ -1,0 +1,24 @@
+click_left()
+click_right()
+//click_right_press()
+//sleep(20)
+//click_right_release()
+sleep(*sleep)
+
+//可用命令列表:
+//click_left_press()
+//click_left_release()
+//click_right_press()
+//click_right_release()
+//click_left()
+//click_right()
+//sleep()
+//mouse_event()
+
+//说明:mouse_event()直接调用系统函数,需要5个参数:示例mouse_event(1,1,1,0,0)
+//.参数 标志组合, 整数型, , 1 鼠标移动 ;2 左键按下  4 左键放开 ;8 右键按下 16 右键放开 ;32 中键按下 64 中键放开,可组合
+//.参数 水平方向, 整数型, , dx，参见相关帮助
+//.参数 垂直方向, 整数型, , dy，参见相关帮助
+//.参数 数据信息, 整数型, , cButtons，未使用
+//.参数 扩展数据信息, 整数型, , dwExtraInfo，通常未用的一个值
+//sleep(*sleep)表示休眠用户设定的时间
